@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3.1 Javascript Challenge</title>
+    <link rel="stylesheet" href="./assets/css/custom.css">
+</head>
+<body>
+    <div class="d-flex justify-content-center align-items-center mt-2">
+        <div class="card-custom  w-25 vh-50 border-dark">
+            <img class="card-img-top vh-25" src="./assets/img/Imagen1.png" alt="Notebook Gamer">
+            <div class="card-body d-flex flex-column justify-items-center align-items-center">
+                <h5 class="card-title text-light mb-4">Laptop Gamer AMD</h5>
+                <div class="justify-content-baseline">
+                    <input class="rounded m-2 p-1 w-75" type="number" placeholder="Cantidad">
+                    <select name="Color" id="color1" class="w-75 m-2 p-1 rounded" required>
+                        <option value="dark">Negro <img class="bg-dark rounded-circle" src="./assets/img/A_black_image.jpg"></img></option>
+                        <option value="blue">Azul</option>
+                        <option value="light">Blanco</option>
+                        <option value="red">Rojo</option>
+                    </select>
+                    <p class="card-text text-light m-2 fw-bold fs-3">Precio: $400.000</p>
+                    
+                </div>
+                <button class="btn btn-warning text-dark m-2">Calcular Total</button>  
+            </div>
+        </div>
+        <div class="ms-4">
+            <p>Total: $0</p>
+            <p>Cantidad: 0</p>
+            <p>Color: </p>
+        </div>
+    </div>
+</body>
+</html>
