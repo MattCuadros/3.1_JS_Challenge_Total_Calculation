@@ -14,24 +14,25 @@
             <div class="card-body d-flex flex-column justify-items-center align-items-center">
                 <h5 class="card-title text-light mb-4">Laptop Gamer AMD</h5>
                 <div class="justify-content-baseline">
-                    <input class="rounded m-2 p-1 w-75" type="number" placeholder="Cantidad">
-                    <select name="Color" id="color1" class="w-75 m-2 p-1 rounded" required>
-                        <option value="dark">Negro <img class="bg-dark rounded-circle" src="./assets/img/A_black_image.jpg"></img></option>
+                    <input class="rounded m-2 p-1 w-75" type="number" placeholder="Cantidad" id="user_input" oninput="this.value = Math.round(this.value)">
+                    <select name="Color" id="color_selector" class="w-75 m-2 p-1 rounded">
+                        <option value="black">Negro</option>
                         <option value="blue">Azul</option>
-                        <option value="light">Blanco</option>
+                        <option value="white">Blanco</option>
                         <option value="red">Rojo</option>
                     </select>
                     <p class="card-text text-light m-2 fw-bold fs-3">Precio: $400.000</p>
                     
                 </div>
-                <button class="btn btn-warning text-dark m-2">Calcular Total</button>  
+                <button id="boton1" class="btn btn-warning text-dark m-2">Calcular Total</button>  
             </div>
         </div>
         <div class="ms-4">
-            <p>Total: $0</p>
-            <p>Cantidad: 0</p>
-            <p>Color: </p>
+            <p>Total: $<span id="preciototal"></span></p>
+            <p>Cantidad: <span id="cantidadtotal"></span></p>
+            <p>Color: <img  src="./assets/img/borde.png" alt="" id="color_elegido"></p>
         </div>
     </div>
+    <script src="./assets/js/total.js"></script>
 </body>
 </html>
