@@ -13,7 +13,7 @@ function myFunction(){
 
     else {
         
-    total_price.innerHTML=400000*quantity;
+    total_price.innerHTML=(400000*quantity);
     total_quantity.innerHTML=quantity;
     color_requerido=document.querySelector("#color_selector").value;
     colorMostrar=document.querySelector("#color_elegido");
