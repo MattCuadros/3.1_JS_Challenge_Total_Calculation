@@ -2,8 +2,8 @@
 
 ---
 
-In this Challenge, i used Vanilla Javascript, Sass and Bootstrap, for modify a **"Buy Cart"** by the User Inputs.
->>The  installation method for Sass and Bootstrap was mediantly NPM.
+In this Challenge, i used Vanilla Javascript, Sass and Bootstrap, for modify a **"Buy Cart"** according to the User Inputs.
+>>The  installation method for Sass and Bootstrap was trought NPM.
 You can view the Deployed Page on GitHub-Pages in this <a href="https://mattcuadros.github.io/3.1_JS_Challenge_Total_Calculation/" target="_blank">Link</a>
 
 ---
