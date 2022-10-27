@@ -18,8 +18,6 @@ function myFunction(){
     color_requerido=document.querySelector("#color_selector").value;
     colorMostrar=document.querySelector("#color_elegido");
     colorMostrar.style.backgroundColor=color_requerido;
-    console.log(color_elegido);
-
     }
 }
 
